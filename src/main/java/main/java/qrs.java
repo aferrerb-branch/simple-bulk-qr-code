@@ -37,7 +37,7 @@ public class qrs {
 
         String home = System.getProperty("user.home");
         System.out.println("what is user home "+home);
-        try (CSVReader csvReader = new CSVReader(new FileReader(home+ "/Downloads/FolderToTry/NL QR Code File 4.csv"))) {
+        try (CSVReader csvReader = new CSVReader(new FileReader(home+ "/Downloads/QRCode/QlinksFile.csv"))) {
             String[] values;
             while ((values = csvReader.readNext()) != null) {
                 //records.add(Arrays.asList(values));
@@ -75,10 +75,10 @@ public class qrs {
         int size = 512;
         String fileType = "png";
         String home = System.getProperty("user.home");
-        String filePath = home + "/Downloads/FolderToTry/QR/png/"+fileName; // Adding the png files to png folder
-        String filePathPDF = home + "/Downloads/FolderToTry/QR/pdf/"+fileName;
-        String filePathJPG = home + "/Downloads/FolderToTry/QR/jpeg/"+fileName;
-        String filePathSVG = home + "/Downloads/FolderToTry/QR/svg/"+fileName;
+        String filePath = home + "/Downloads/QRCode/QR/png/"+fileName; // Adding the png files to png folder
+        String filePathPDF = home + "/Downloads/QRCode/QR/pdf/"+fileName;
+        String filePathJPG = home + "/Downloads/QRCode/QR/jpeg/"+fileName;
+        String filePathSVG = home + "/Downloads/QRCode/QR/svg/"+fileName;
         File myFile = new File(filePath+".png");
         File myJPGFile = new File(filePathJPG+".jpg");
         File mySVGFile = new File(filePathSVG+".svg");
