@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="org.jfree.svg-5.0.2-sources">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/org.jfree.svg-5.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/pdfbox-2.0.25.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/pdfbox-app-2.0.25.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/pdfbox-debugger-2.0.25.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/pdfbox-tools-2.0.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/org.jfree.svg-5.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

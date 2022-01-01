@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/zxing-master/docs/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/zxing-master/android-core/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/android-integration/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/android/src" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/core/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/core/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/javase/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/javase/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/zxing.appspot.com/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/zxingorg/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/zxing-master/zxingorg/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
